@@ -24,7 +24,7 @@ cache:
 # 프로젝트 내에 권한이 추가된 gradlew를 활용하여 clean, build를 진행한다.
 script: "./gradlew clean build"
 
-
+#travis ci test 입니다.
 
 before_deploy:
   # AWS CodeDeploy는 jar 파일 인식 불가능 - Zip 파일로 압축
