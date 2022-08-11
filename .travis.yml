@@ -1,10 +1,10 @@
 language: java
 jdk:
-  - openjdk11
+  - openjdk8
 
 branches:
   only:
-    - main
+    - master
 
 before_install:
   - chmod +x gradlew
