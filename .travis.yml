@@ -1,10 +1,10 @@
 language: java
 jdk:
-  - openjdk11
+  - openjdk8
 
-#branches:
-#  only:
-#    - main
+branches:
+  only:
+    - main
 #코드 테스트 중- travis ci 연동문제
 before_install:
   - chmod +x gradlew
